@@ -222,7 +222,7 @@ mkdir -p "$LOG_DIR"
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)
 MAIN_LOG="$LOG_DIR/overnight_$TIMESTAMP.log"
 
-REPO="sbergeron42/melee"
+REPO="doldecomp/melee"
 MODEL=${MODEL:-opus}
 # Set to "all" to scan all files with stubs, or pass files as args
 SCAN_MODE=${SCAN_MODE:-all}
