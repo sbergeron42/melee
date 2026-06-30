@@ -190,7 +190,7 @@ Ground_GObj* grHeal_8021EFEC(u32 idx)
 
 void grHeal_8021F0D8(Ground_GObj* gobj)
 {
-    Ground* gp = GET_GROUND(gobj);
+    Ground* gp = gobj->user_data;
     s32 i;
 
     grAnime_801C8138(gobj, gp->map_id, 0);
